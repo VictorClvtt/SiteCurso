@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 10cm;
+    width: 100%;
+    
+    background-image: url(./assets/blog-stock-photos-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.sombra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(34,44,94,0) 0%, rgba(0,0,0,1) 100%);
+}
+
+.buttons{
+    display: flex;
+    justify-content: right;
+    width: 100%;   
+    border-bottom: 4px solid rgba(0, 0, 0, 0.311);
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a li{ 
+    color: rgb(255, 255, 255);
+    list-style: none;
+    margin: 5px 50px;
+    padding: 10px 15px;
+    border: solid rgba(255, 255, 255, 0.452) 2px;
+}
+
+.apres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 5cm;
+    
+    margin-bottom: 20px;
+}
+
+h1{
+    color: white;
+    background: rgba(0, 0, 0, 0.211);
+    padding: 15px 10px;
+    border-radius: 10px 0;
+
+}
+
+.temas{
+    display: flex;
+    align-items: center;
+    gap: 1cm;
+    background: rgb(229, 202, 151);
+    padding: 1cm;
+    margin: 1cm;
+    height: fit-content;
+    width: fit-content;
+}
+
+.caixatema1{
+    background-image: url(./assets/seletorClasse.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 150%;
+    
+    height: 4.5cm;
+    width: 9cm;
+    display: flex;
+    align-items: end;
+}
+
+.caixatema2{
+    background-image: url(./assets/vnxyhdvwfuwi.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    height: 4.5cm;
+    width: 9cm;
+    display: flex;
+    align-items: end;
+}
+
+.caixatema3{
+    background-image: url(./assets/Anna-March-Blog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 160%;
+    height: 4.5cm;
+    width: 9cm;
+    display: flex;
+    align-items: end;
+}
+
+
+.texto{ 
+    background: rgb(203, 179, 134);
+    height: 4.5cm;
+    width: 29cm;
+}
+
+.legenda{
+    display: flex;
+    background: rgba(255, 255, 255, 0.499);
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.titulo{
+    background: rgba(0, 0, 0, 0.499);
+    padding: 10px 15px;
+    border-bottom: solid rgba(0, 0, 0, 0.805) 5px;
+}
+
+p{
+    margin: 15px 0 0 30px;
+}
